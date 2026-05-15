@@ -1,0 +1,465 @@
+.Navbar{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:solid #EEEEEE 2px;
+    padding:1rem;
+    height:4rem;
+}
+.section1{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    width:60%;
+}
+.section2{
+    display:flex;
+    justify-content:right;
+    align-items:center;
+}
+.section2 i{
+    margin:0.75rem;
+    font-size:1.25rem;
+}
+.nav-select2{
+  border: none;      
+  outline: none;      
+  background: transparent;
+  font-size:1rem;
+  margin-top:1rem;
+}
+.section2 p{
+    font-size:0.75rem;
+    margin-left:1.55rem;
+}
+.selection{
+    border:solid #EEEEEE 2px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0.70rem;
+    border-radius:0.5rem;
+    margin:0.75rem;
+    height:2.5rem;
+}
+.selection select{
+  border: none;      
+  outline: none;      
+  background: transparent;
+  margin-left:0.5rem;
+  font-size:0.75rem;
+  font-weight:600;
+}
+.section1 input{
+    height:2.5rem;
+    width: 100%;
+}
+.search-bar{
+    border:solid #EEEEEE 2px;
+    border-radius:0.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    padding-left:0.75rem;
+    height:2.5rem;
+
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    margin-left:0.5rem;
+    height:1rem;
+}
+.main-content{
+    padding:2rem;
+    overflow:scroll;
+
+}
+.heading{
+  display:flex;
+  justify-content:space-between
+}
+.date-export{
+  display:flex;
+  align-items:center;
+}
+.date{
+  display:flex;
+  border:solid #EEEEEE 2px;
+  align-items:center;
+  height:2.24rem;
+  padding:0.25rem;
+  border-radius:0.5rem;
+  margin-right:1rem;
+  justify-content:center;
+}
+.date input{
+  border:none;
+  outline:none;
+}
+.export{
+  display:flex;
+  border:solid #EEEEEE 2px;
+  padding:0.25rem;
+  border-radius:0.5rem;
+}
+.sale{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sale-information{
+    border:solid #EEEEEE 2px;
+    height:9rem;
+    width:20%;
+    margin:0.5rem;
+    border-radius:1rem;
+    display:flex;
+    padding:1.25rem;
+}
+.rupee-container {
+    width: 45px;
+    height: 45px;
+    background-color: #e2faef; /* Light green background */
+    color: #10b981;            /* Vibrant green icon color */
+    border-radius: 50%;        /* Makes it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:1rem
+}
+
+
+.chart-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    width: 33rem;
+    margin:0.5rem;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chart-header h2 {
+    font-size: 18px;
+    color: #1e293b;
+    margin: 0;
+    font-weight:600;
+}
+.chart-header select{
+    padding:0.25rem;
+    border-radius:0.30rem;
+    border:solid #EEEEEE 2px;
+    color:rgb(81, 79, 79)
+}
+
+.chart-body {
+    position: relative;
+    height: 15rem;
+    width:5rem;
+}
+.chart-content{
+    border-bottom:solid #EEEEEE 2px;
+    display:flex;
+    height:2.5rem;
+    width:25rem;
+    align-items:end;
+}
+.monthly-chart{
+    display:flex;
+    border-bottom:none;
+    justify-content:space-evenly;
+}
+
+.pi-chart{
+    display:flex;
+}
+
+.card-body{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.donut-chart {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  /* Percentages calculated from the screenshot data */
+  background: conic-gradient(
+    #2ecc71 0% 38%,     /* Cash */
+    #3498db 38% 66%,    /* UPI (38+28) */
+    #9b59b6 66% 87%,    /* Card (66+21) */
+    #f39c12 87% 96%,    /* Net Banking (87+9) */
+    #bdc3c7 96% 100%    /* Others (96+4) */
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.donut-chart2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  /* Percentages calculated from the screenshot data */
+  background: conic-gradient(
+    #2ecc71 0% 65%,     /* Cash */
+    #3498db 65% 77%,    /* UPI (38+28) */
+    #9b59b6 77% 92%,    /* Card (66+21) */
+    #f39c12 92% 100%    /* Net Banking (87+9) */
+      
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Creates the "hole" in the middle */
+.chart-center {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-amount {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+
+.total-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Legend Styling */
+.legend {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.legend li strong {
+  margin-left: auto; /* Pushes the price to the right */
+  color: var(--text-main);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color);
+  margin-right: 12px;
+}
+.list{
+    width:15rem;
+    margin-left:0.5rem;
+}
+
+
+.records{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.invoice-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 35%;
+  height:29rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Header Section */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-header h2 {
+  font-size: 1.25rem;
+  color: #1a202c;
+}
+
+.view-all {
+  color: #4c51bf;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  color: #718096;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 12px 8px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+td {
+  padding: 16px 8px;
+  font-size: 0.9rem;
+  color: #4a5568;
+  border-bottom: 1px solid #f7fafc;
+}
+
+/* Status Badges */
+.status {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.paid { background-color: #e6fffa; color: #38a169; }
+.partial { background-color: #ebf4ff; color: #3182ce; }
+.pending { background-color: #fffaf0; color: #dd6b20; }
+
+/* Footer */
+.card-footer {
+  margin-top: 1rem;
+  padding:1rem;
+}
+
+.card-footer a {
+  color: #4c51bf;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+
+/* Card Container Styling */
+.services-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 25%;
+  height:29rem;
+  font-family: 'Inter', sans-serif; /* Standard clean UI font */
+}
+
+/* Header Flexbox */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.card-header h3 {
+  font-size: 1.1rem;
+  color: #1a202c;
+  margin: 0;
+}
+
+.time-filter {
+  padding: 6px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #4a5568;
+}
+
+/* Table Design */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.services-table th {
+  text-align: left;
+  font-size: 0.8rem;
+  color: #718096;
+  padding-bottom: 12px;
+  font-weight: 500;
+}
+
+.services-table td {
+  padding: 12px 0;
+  border-top: 1px solid #f7fafc;
+  vertical-align: middle;
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Icon and Label Alignment */
+.service-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+/* Specific Icon Backgrounds from the image */
+.blue-bg { background-color: #ebf4ff; color: #3182ce; }
+.purple-bg { background-color: #faf5ff; color: #805ad5; }
+.red-bg { background-color: #fff5f5; color: #e53e3e; }
+.green-bg { background-color: #f0fff4; color: #38a169; }
+
+/* Footer Link */
+.card-footer2 {
+  margin-top: 0.75rem;
+}
+
+.view-link {
+  color: #4c51bf;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
